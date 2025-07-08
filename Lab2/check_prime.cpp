@@ -57,6 +57,7 @@ bool is_prime_randomized(ull n,int k)
 }
 int main()
 {
-    cout<<(bool)is_prime_randomized(5,400);
+    srand(time(0));
+    cout<<(bool)is_prime_randomized(1223,400);
     
 }
