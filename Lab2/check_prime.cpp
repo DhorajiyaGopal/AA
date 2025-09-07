@@ -3,6 +3,7 @@
 using namespace std;
 int power(ull a,ull n,ull p)
 {
+    int val = 2;
     int res = 1;
     a = a % p;
     while(n > 0)
